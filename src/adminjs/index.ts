@@ -7,9 +7,6 @@ import { DataTypes, Model } from 'sequelize'
 // registrar adaptador assim:
 AdminJS.registerAdapter({ Database, Resource })
 
-// ... seu restante do código (modelos, adminJs, router) ...
-
-
 // Definir modelos
 
 class Category extends Model {
