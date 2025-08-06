@@ -31,7 +31,7 @@ Category.init(
     underscored: true,
   }
 )
-
+//verificar
 class Episode extends Model {
   declare id: number
   declare name: string
@@ -41,7 +41,7 @@ class Episode extends Model {
   declare secondsLong?: number
   declare courseId: number
 }
-
+// verificar 
 Episode.init(
   {
     id: {
